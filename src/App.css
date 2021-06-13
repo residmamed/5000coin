@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+*{
+  font-family: 'Inter', sans-serif;
+}
+.App {
+  padding:0px 32px;
+  padding-top: 32px;
+}
+.text{font-size:48px;
+  color:#1A202C;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.text2{
+  font-family: 'Inter', sans-serif;
+  color: #6415FF;
+  font-size:48px;
+  margin: 0;
+}
+.mainpage{
+  margin: 0 279.5px;
+  padding: 96px 0px;
+}
+.text-align{
+  display: flex;
+  flex-direction: column;
+}
+.text-align2{
+  display: flex;
+  flex-direction: row;
+}
+.text3{
+  font-family: 'Inter', sans-serif;
+  color: #243E63;
+  font-size:18px;
+  margin: 32px 0;
+  line-height: 30px;
+}
+.input{
+  
+  font-size: 20px;
+  border-radius: 30px;
+}
+.input::placeholder{
+  font-size: 20px;
+padding-left: 30px;
+}
+.get-btn{
+  background: rgba(100,21,255);
+  font-size: 20px;
+border:0;
+padding: 14px 16px;
+border-radius: 20px;
+color: white;
+cursor: pointer;
+}
+.stpage{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+.image{
+  max-width: 48rem;
+}
+.trust{
+  color: #a0aec0;
+  font-size: 12px;
+  margin-top: 80px;
+}
+.image2{
+  opacity: 0.5;
+  padding-right:16px ;
+  margin-top: 1rem;
+  width:75%
+}
+
+
+
+
+/* Navbar */
+
+.nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 0 !important; 
+  margin: 0 !important;
+}
+
+.nav ul li{
+  font-family: Inter, system-ui;
+  font-weight: bold;
+}
+
+.Treact{
+  font-size: 1.5rem !important;
+  color: #243E63;
+  font-weight: 900;
+  margin-left: 0 !important;
+  margin: 0 24px 0 0;
+  padding: 0 0 4px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.nav1{
+  font-size: 0.875rem;
+  margin: 0 1.5rem;
+  color: #243E63;
+  font-family:Inter, system-ui;
+  font-weight:bold ;
+}
+
+.nav ul li a{
+  text-decoration: none;
+  color: inherit;
+  border: none;
+}
+
+.navbtn{
+  font-size: 0.875rem;
+  margin: 0 1.5rem;
+  color: #243E63;
+  border-radius:9999px ;
+  padding: 12px 32px;
+  background-color: #6415ff;
+  color: #f7fafc;
+}
+
+.btn{
+  border: none;
+  background:none;
+  color: #f7fafc;
+  background-color: rgba(100,21,255,var(--tw-bg-opacity));
+  cursor: pointer;
+}
+
+.reactnav2{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.logo{
+  margin: 0 12px 0 0;
+  width: 2.5rem;
+  margin-right:0.75rem ;
+  
+}
+.form{
+  display: flex;
+  flex-direction: row;
+}
+.Features{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.word{
+  color:#6415ff;
+  font-family: Inter,system-ui;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  font-size: 16px;
+  
+  
+}
+
+.words{
+  text-align: center;
+  font-family: Inter,system-ui;
+  font-size: 48px;
+}
+
+.word2{
+  font-weight: 900;
+  letter-spacing: 0.025em;
+  text-align: center;
+  font-size: 48px;
+  color: #243e63;
+  padding-top:1px;
+  margin: 30px;
+
+}
+
+.word2-end{
+  color:#6415ff;
+}
+
+.word3{
+  font-size: 18px;
+  font-family: Inter,system-ui;
+  color: #7C8ba1;
+  margin: 16px 0 0;
+}
